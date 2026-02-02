@@ -1,0 +1,47 @@
+
+[cantbreathe]
+	#minimum ticks of how long cantbreathe takes to spawn (20 ticks = 1 second)
+	spawn-min = 72000.0
+	#maximum ticks of how long cantbreathe takes to spawn (20 ticks = 1 second)
+	spawn-max = 144000.0
+	#the amount of ticks of how long cantbreathe takes to disappear while chasing a player, best kept low cause of the kill multiply mechanic
+	disappear-timer = 1200.0
+	#the square radius of which you have to look at for cantbreathe to activate the spot cutscene
+	spotted-radius = 10.0
+	#false removes the kill cutscene and replaces it with normal damage
+	insta-kill = true
+	#only works if you have instakill set to false
+	damage = 10.0
+	#a toggle for where instead of searching for another player and chasing them after killing a player, cantbreathe despawns immediately
+	kill-despawn = false
+	#speed of cantbreathe, for reference a player sprint jumping is 0.36
+	"speed(DOESNT WORK YET)" = 0.6
+	#doesnt really matter, hes supposed to be unkillable but i made it an option anyway.
+	"health(DOESNT WORK YET)" = 900.0
+	#minimum ticks of how long silent cantbreathe takes to spawn (20 ticks = 1 second)
+	silent-spawn-min = 24000.0
+	#maximum ticks of how long silent cantbreathe takes to spawn (20 ticks = 1 second)
+	silent-spawn-max = 120000.0
+	#a toggle for when if silent cantbreathe jumpscares you, will he kill you or not
+	jumpscare-kill = true
+	#minimum ticks of how long levitator ai silent cantbreathe takes to despawn (20 ticks = 1 second)
+	levitator-disappear-timer = 1200.0
+	#minimum ticks of how long stalker ai silent cantbreathe takes to despawn (20 ticks = 1 second)
+	stalker-disappear-timer = 1200.0
+	#this enables/disables the stalker variant for silent cantbreathe. if both variants are disabled, silent cantbreathe will never spawn.
+	stalker-variant-enabled = true
+	#this enables/disables the levitator variant for silent cantbreathe. if both variants are disabled, silent cantbreathe will never spawn.
+	levitator-variant-enabled = true
+
+[events]
+	#minimum ticks of how long a minor random event occurs (20 ticks = 1 second)
+	"minor-event-occur-min(DOESNT WORK YET)" = 1000.0
+	#maximum ticks of how long a minor random event occurs (20 ticks = 1 second)
+	"minor-event-occur-max(DOESNT WORK YET)" = 25000.0
+	#minimum ticks of how long a major random event occurs (20 ticks = 1 second)
+	"major-event-occur-min(DOESNT WORK YET)" = 7500.0
+	"major-event-occur-max(DOESNT WORK YET)" = 90000.0
+
+[misc]
+	oculus-warn = true
+
